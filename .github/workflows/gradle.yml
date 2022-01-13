@@ -37,6 +37,5 @@ jobs:
       with:
         image: ahilchottani/saudchottani
         registry: registry-url.io
-        dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
